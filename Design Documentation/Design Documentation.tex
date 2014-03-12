@@ -54,7 +54,13 @@
 		 
 	
 	\section{Vision}
-	
+	The purpose of the project is to develop a software solution which provides
+a web and mobile platform for markers, students and lecturers handle marks
+and marking in the Department of Computer Sciences. It will uphold the
+privacy of students so that students cannot see each others marks. It will
+reduce paper work and the chances that marks can be lost and provide a
+centralized repository for student marks. It will provide functionality to
+generate customizable reports at different levels of granularity.
 		\vspace{0.2in}
 		
 			 		 %We must briefly describe the purpose of this document
@@ -157,16 +163,53 @@
 		
 		\subsection{API Specifications}
 						%UML interfaces and class diagrams for inputs and outputs, etc
+						\begin{itemize}
+				\item Different API's are to be used throughout the whole project, these are summarised below according to the interface they fall under: 
+					\begin{itemize}
+                                                \item View: Android API, HTTP/HTML 5 API, CSS API.
+						\item Controller: Python Django API (Main API). (PHP API and JAVA API might be used under certain conditions).
+						\item Model: mySQL API, LDAP API.
+					\end{itemize}
+			
+		\end{itemize}
 				\vspace{0.2in}
 				
 		\subsection{System Class Diagrams }%Ndivhuwo Nthambeleni
 		%Class Diagram for assessment marking and assessment aggregation
 				
-				\begin{figure}[h]
-						\centering
-						\includegraphics[width=6in, height=4in]{Pictures/MiniPhase2ClassDiag.jpg}
-						\caption{Assessment Class Diagram}
-				\end{figure}
+				\begin{itemize}
+                                        \item Leaf Assessment, Mark allocation and assessment aggregation Class diagram
+                                                \begin{itemize}
+                                                \item The class diagram uses the abstact factory design pattern to represent the lower level relationship between an assessment, it's aggregation and the mark allocation.
+                                                \item Although all these processes are done in different APIs, this class diagram represents them in a manner that seems like they are on one interface just to make it better to understand.
+                                                \end{itemize}
+                                        \begin{figure}[h]
+                                                \centering
+                                                \includegraphics[width=6in, height=4in]{Pictures/MiniPhase2ClassDiag.jpg}
+                                                \caption{Assessment Marking and aggregation Class Diagram}
+					\end{figure}        
+                                        \item Assessment Report Class Diagram
+						\begin{itemize}
+                                                \item Just like the previous class diagram, this the assessment report class diagram uses the abstract factory design pattern to show how each report is related to a specific assessment.      
+                                                
+						\end{itemize}
+					\begin{figure}[h]
+                                                \centering
+                                                \includegraphics[width=6in, height=4in]{Pictures/assessmentReportClassDiag.jpg}
+                                                \caption{Assessment Report Class Diagram}
+					\end{figure}
+                                        \item Student Mark Report Class Diagram:
+                                                \begin{itemize}
+                                                        \item This is an abstract factory class diagram, like the others
+							\item Shows how the marks are generated for each student when they are logged on to the system.
+						\end{itemize}
+					\begin{figure}[h]
+                                                \centering
+                                                \includegraphics[width=6in, height=4in]{Pictures/StudentMarksReport.jpg}
+                                                \caption{Student Mark Report Class Diagram}
+					\end{figure}
+                                        
+                                \end{itemize}
 						%These class diagrams must include attributes, methods and relationships
 						
 				\vspace{0.2in}
