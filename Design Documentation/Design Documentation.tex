@@ -9,6 +9,7 @@
 \usepackage{listings} % Required for insertion of code
 \usepackage{courier} % Required for the courier font
 \usepackage{placeins} % Required to specify float barriers
+\usepackage{caption} % Required for table captions
 
 % Margins
 \topmargin=-0.45in
@@ -280,10 +281,11 @@ generate customizable reports at different levels of granularity.
 		\subsection{User Interface Designs} %MatthewHughes and Ndivhuwo Nthambeleni
 						%This includes work-flow specifications
 				\vspace{0.2in}
-		
+		\newpage
 		\subsection{Database Desgin} %Lutfiyya
 						
-					\caption{Module}
+				
+					\captionof{table}{Module}
 					\begin{tabular}{|p{1.0in}|p{0.9in}|p{0.5in}|p{0.4in}|p{1.0in}|p{0.9in}|} \hline 
 					Field & Type & Null & Key & Default & Extra \\ \hline 
 					id & int(11) & No & Primary & Null & auto\_increment \\ \hline 
@@ -303,7 +305,7 @@ generate customizable reports at different levels of granularity.
 
 
 
-					\caption{Session}
+					\captionof{table}{Session}
 					\begin{tabular}{|p{1.0in}|p{0.9in}|p{0.5in}|p{0.4in}|p{1.0in}|p{0.9in}|} \hline 
 					Field & Type & Null & Key & Default & Extra \\ \hline 
 					id & int(11) & No & Primary & Null & auto\_increment \\ \hline 
@@ -317,8 +319,8 @@ generate customizable reports at different levels of granularity.
 					\end{tabular}
 					
 					
-					
-					\caption{Assessment}
+					\newpage
+					\captionof{table}{Assessment}
 					\begin{tabular}{|p{1.0in}|p{0.9in}|p{0.5in}|p{0.4in}|p{1.0in}|p{0.9in}|} \hline 
 					Field & Type & Null & Key & Default & Extra \\ \hline 
 					assessment\_id & int(11) & No & Primary & Null & auto\_increment \\ \hline 
@@ -332,7 +334,7 @@ generate customizable reports at different levels of granularity.
 					submission\_details & text & No &  & Null &  \\ \hline 
 					\end{tabular}
 					
-					\caption{MarkAllocation}
+					\captionof{table}{Mark Allocation}
 					\begin{tabular}{|p{1.0in}|p{1.0in}|p{0.4in}|p{0.4in}|p{1.0in}|p{0.9in}|} \hline 
 					Field & Type & Null & Key & Default & Extra \\ \hline 
 					mark\_id & int(11) & No & Primary & Null & auto\_increment \\ \hline 
@@ -345,7 +347,7 @@ generate customizable reports at different levels of granularity.
 					
 					
 					
-					\caption{SimpleSumAggregator}
+					\captionof{table}{Simple Sum Aggregator}
 					\begin{tabular}{|p{1.0in}|p{1.0in}|p{0.4in}|p{0.5in}|p{0.9in}|p{0.9in}|} \hline 
 					Field & Type & Null & Key & Default & Extra \\ \hline 
 					ssa\_id & int(11) & No & Primary & Null & auto\_increment \\ \hline 
@@ -356,7 +358,7 @@ generate customizable reports at different levels of granularity.
 					
 					
 					
-					\caption{WeightedSumAggregator}
+					\captionof{table}{Weighted Sum Aggregator}
 					\begin{tabular}{|p{1.0in}|p{0.9in}|p{0.4in}|p{0.6in}|p{0.9in}|p{0.9in}|} \hline 
 					Field & Type & Null & Key & Default & Extra \\ \hline 
 					wsa\_id & int(11) & No & Primary & Null & auto\_increment \\ \hline 
@@ -366,8 +368,8 @@ generate customizable reports at different levels of granularity.
 					\end{tabular}
 					
 					
-					
-					\caption{BestOfAggregator}
+					\newpage
+					\captionof{table}{Best Of Aggregator}
 					\begin{tabular}{|p{1.0in}|p{1.0in}|p{0.4in}|p{0.5in}|p{0.9in}|p{0.9in}|} \hline 
 					Field & Type & Null & Key & Default & Extra \\ \hline 
 					boa\_id & int(11) & No & Primary & Null & auto\_increment \\ \hline 
@@ -379,7 +381,7 @@ generate customizable reports at different levels of granularity.
 					
 					
 					
-					\caption{StudentReport}
+					\captionof{table}{Student Report}
 					\begin{tabular}{|p{1.0in}|p{1.0in}|p{0.4in}|p{0.4in}|p{1.0in}|p{0.9in}|} \hline 
 					Field & Type & Null & Key & Default & Extra \\ \hline 
 					sReport\_id & int(11) & No & Primary & Null & auto\_increment \\ \hline 
@@ -391,7 +393,7 @@ generate customizable reports at different levels of granularity.
 					
 					
 					
-					\caption{AuditReport}
+					\captionof{table}{Audit Report}
 					\begin{tabular}{|p{1.1in}|p{0.9in}|p{0.5in}|p{0.4in}|p{1.0in}|p{0.9in}|} \hline 
 					Field & Type & Null & Key & Default & Extra \\ \hline 
 					ar\_id & int(11) & No & Primary & Null & auto\_increment \\ \hline 
@@ -407,7 +409,7 @@ generate customizable reports at different levels of granularity.
 					\end{tabular}
 					
 					
-					\caption{AssessementReport} 
+					\captionof{table}{Assessement Report} 
 					\begin{tabular}{|p{1.0in}|p{1.0in}|p{0.4in}|p{0.4in}|p{1.0in}|p{0.9in}|} \hline 
 					Field & Type & Null & Key & Default & Extra \\ \hline 
 					as\_id & int(11) & No & Primary & Null & auto\_increment \\ \hline 
@@ -420,9 +422,7 @@ generate customizable reports at different levels of granularity.
 			
 			
 	
-	\section{Open Issues}
 	
-		\vspace{0.2in}
 		
 		
 	\newpage
