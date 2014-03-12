@@ -109,7 +109,50 @@
 			\vspace{0.2in}
 					
 		\subsection{Lower Levels of Granularity Specification}
-				
+				\begin{itemize}
+					\item User Log In
+						\begin{itemize}
+						\item View: A log in screen is displayed, wherein the user enters their details then submit to log in. The user will receive a log in result based on the validity of their credentials
+						\item Controller: The Controller receives the credentials entered by the user and transfers them to the model for validation. The controller will create a response object based on the validity of the credentials.
+						\item Model: The model receives the credentials and simply finds a match from LDAP. It sends the result of the validation back to the controller.
+						\end{itemize}
+						
+					\item Leaf Assessments
+					\begin{itemize}
+						\item View: On the displayed screen, the user selects one of the following:
+						\begin{enumerate}
+							\item Add New Leaf Assessment: The user enters all the required information to create a leaf assessment then submits. This will cause a new Assessment to be created and saved into the database, unless there was an error or exception (in which case an exception is thrown and the user is informed of the error)
+							\item Search Existing Leaf Assessment (for Update/Delete): If record(s) matching the search were found, they are displayed for the user to update or delete, else then the user is informed of anything that possibly went wrong.
+						\end{enumerate}
+						\item Controller: The controller receives, based on the kind of operation the user selects, the required information and sends it to the Model for either insertion, update, or deletion.
+						\item Model: The model will respectively receive the required information and either save a new leaf assessment, update or delete an existing leaf assessment. After the respective opration, the model will notify the view of changes made to the database.
+						 
+					\end{itemize}
+					\item Aggregate Assessment:
+						\begin{itemize}
+							\item View:The user enters all Aggregate Assessment information as required. When they submit, a new Aggregate Assessment is create based on the specified information.
+							\item Controller: The controller uses the provided aggregator to proccess the actual aggregate assessment then it sends it to the Model for storage.
+							\item Model: The model receives the aggregate assessment information and provides the controller with the specified aggregator. Then the model receives the processed aggregate assessment and stores it into the database then notifies the user about the results of the operation.
+						\end{itemize}
+					\item Assessment Reports
+						\begin{itemize}
+							\item View:The user specifies all required information (including the Freequency Analysis Information) and then submit. They will then choose whether they want it rendered on their device application or downloaded in either PDF or CSV format. Based on their choice of view, the results will be displayed.
+							\item Controller: The controller retrieves the report specification submitted by the user and sends it to the model to find matches. The controller will then create a response object with the results and send it to the user for viewing.
+							\item Model: The model receives the report specification from the controller and then searches against the database for possible matches then it returns the matches back to the controller.
+						\end{itemize}
+					\item Student Marks Reports
+						\begin{itemize}
+							\item View:The user specifies all required information (including aggregation specifications) and then submit. They will then choose whether they want the results rendered on their device application or downloaded in either PDF or CSV format. Based on their choice of view, the results will be displayed.
+							\item Controller: The controller retrieves the marks report specification submitted by the user and sends it to the model to find matches. The controller will then create a response object with the results and send it to the user for viewing.
+							\item Model: The model receives the marks report specification from the controller and then searches against the database for possible matches then it returns the matches back to the controller.
+						\end{itemize}
+					\item Audit Reports
+						\begin{itemize}
+							\item View: The user enters all the specifications for the Audit Report then submit. They will then choose whether they want the results rendered on their device application or downloaded in either PDF or CSV format. Based on their choice of view, the results will be displayed.
+							\item Controller: The controller retrieves the Audit Report specifications submitted by the user then send it to the Model to retrieve matches. These matches will be sent back to the controller and then sent back to the user for viewing.
+							\item Model: The model receives the Audit Report specifications, retrieves matches of these specifications, and then return them to the controller.
+						\end{itemize}
+				\end{itemize}
 		\vspace{0.2in}
 		
 		\subsection{API Specifications}
