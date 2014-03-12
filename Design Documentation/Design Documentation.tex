@@ -8,6 +8,7 @@
 \usepackage{graphicx} % Required to insert images
 \usepackage{listings} % Required for insertion of code
 \usepackage{courier} % Required for the courier font
+\usepackage{placeins} % Required to specify float barriers
 
 % Margins
 \topmargin=-0.45in
@@ -188,6 +189,7 @@ generate customizable reports at different levels of granularity.
                                                 \includegraphics[width=6in, height=4in]{Pictures/MiniPhase2ClassDiag.jpg}
                                                 \caption{Assessment Marking and aggregation Class Diagram}
 					\end{figure}        
+					\FloatBarrier
                                         \item Assessment Report Class Diagram
 						\begin{itemize}
                                                 \item Just like the previous class diagram, this the assessment report class diagram uses the abstract factory design pattern to show how each report is related to a specific assessment.      
@@ -198,6 +200,7 @@ generate customizable reports at different levels of granularity.
                                                 \includegraphics[width=6in, height=4in]{Pictures/assessmentReportClassDiag.jpg}
                                                 \caption{Assessment Report Class Diagram}
 					\end{figure}
+					\FloatBarrier
                                         \item Student Mark Report Class Diagram:
                                                 \begin{itemize}
                                                         \item This is an abstract factory class diagram, like the others
@@ -208,7 +211,7 @@ generate customizable reports at different levels of granularity.
                                                 \includegraphics[width=6in, height=4in]{Pictures/StudentMarksReport.jpg}
                                                 \caption{Student Mark Report Class Diagram}
 					\end{figure}
-                                        
+                     \FloatBarrier                   
                                 \end{itemize}
 						%These class diagrams must include attributes, methods and relationships
 						
@@ -221,26 +224,31 @@ generate customizable reports at different levels of granularity.
 										\includegraphics[width=6in, height=4in]{Pictures/LoginActivityDiagram.jpg}
 										\caption{User Log In Activity Diagram}
 						\end{figure}
+						\FloatBarrier
 						\begin{figure}[h]
 										\centering
 										\includegraphics[width=6in, height=4in]{Pictures/LeafAssesmentActivityDiagram.jpg}
 										\caption{Leaf Assessment Activity Diagram}
 						\end{figure}
+						\FloatBarrier
 						\begin{figure}[h]
 										\centering
 										\includegraphics[width=6in, height=4in]{Pictures/AggregateAssesmentActivityDiagram.jpg}
 										\caption{Aggregate Assessment Activity Diagram}
 						\end{figure}
+						\FloatBarrier
 						\begin{figure}[h]
 										\centering
 										\includegraphics[width=6in, height=4in]{Pictures/AssessmentReportActivityDiagram.jpg}
 										\caption{Assessment Report Activity Diagram}
 						\end{figure}
+						\FloatBarrier
 						\begin{figure}[h]
 										\centering
 										\includegraphics[width=6in, height=4in]{Pictures/StudentMarksReport.jpg}
 										\caption{Student Marks Report Activity Diagram}
 						\end{figure}
+						\FloatBarrier
 						\begin{figure}[h]
 										\centering
 										\includegraphics[width=6in, height=4in]{Pictures/AuditReportActivityDiagram.jpg}
