@@ -76,7 +76,26 @@
 		
 		\subsection{Chosen Protocols}
 				%Please refer to the guideline document for some of the items that must be included in this part.
-		
+			\begin{enumerate}
+	                    \item Simple Object Access Protocol (SOAP) \\*
+	                    All systems (devices) should be able to access the system’s content through the SOAP-based web services. 
+	                        \begin{enumerate}
+	                            \item The devices (systems) will send a request, procedure call, or a message such as getMark to search or retrieve information (average mark for the module, number of distinctions) through the SOAP-based web services.
+	                            \item The SOAP-based web service will process the request or message and send a response to the devices (systems) in a form of a structured XML-based data.
+	                        \end{enumerate}
+	                    \item Lightweight Directory Access Protocol (LDAP)
+	                        \begin{enumerate}
+	                            \item It is used to authenticate the system users (Lecturers, Students, and Teaching Assistants) on login for single Sign On.
+	                            \item It is used to retrieve the student’s personal details and class lists, including courses assigned to lectures and students.
+	                            \item It is used to retrieve system users roles such as, is the user a Lecturer, Student, or teaching assistant for the Module
+	                        \end{enumerate}
+	                    \item  Hypertext Transfer Protocol over Secure Socket Layer (HTTPS and HTTP)
+	                        \begin{enumerate}
+	                            \item Used to send and retrieve sensitive data(marks and modules) through a secured (HTTPS) channel.
+	                            \item Used to send a GET and POST requests to the web server and web services. Such as adding or updating a student mark.
+	                        \end{enumerate}
+	                        
+              		\end{enumerate}
 			\vspace{0.2in}
 			
 		
