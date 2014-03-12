@@ -261,9 +261,141 @@ generate customizable reports at different levels of granularity.
 						%This includes work-flow specifications
 				\vspace{0.2in}
 		
-		\subsection{Database Desgin} %Lutfiya
-						%Database tables, etc
+		\subsection{Database Desgin} %Lutfiyya
 						
+					\caption{Module}
+					\begin{tabular}{|p{1.0in}|p{0.9in}|p{0.5in}|p{0.4in}|p{1.0in}|p{0.9in}|} \hline 
+					Field & Type & Null & Key & Default & Extra \\ \hline 
+					id & int(11) & No & Primary & Null & auto\_increment \\ \hline 
+					code & varchar(20) & No &  & 0 &  \\ \hline 
+					name & varchar(20) & No &  & Null &  \\ \hline 
+					lecturer  & varchar(20) & No &  & 0 &  \\ \hline 
+					description & text & Yes &  & Null &  \\ \hline 
+					semester & smallint(6) & No &  & 0 &  \\ \hline 
+					has\_webct & tinyint(4) & Yes &  & Null &  \\ \hline 
+					year\_group & int(11) & Yes &  & Null &  \\ \hline 
+					hidden & tinyint(3) unsigned & No &  & 0 &  \\ \hline 
+					last\_updated & datetime & No &  & 0000-00-00 00:00:00 &  \\ \hline 
+					discussion\_board & tinyint(4) & Yes &  & Null &  \\ \hline 
+					tutors\_allowed & tinyint(2) & Yes &  & Null &  \\ 
+					\hline 
+					\end{tabular}
+
+
+
+					\caption{Session}
+					\begin{tabular}{|p{1.0in}|p{0.9in}|p{0.5in}|p{0.4in}|p{1.0in}|p{0.9in}|} \hline 
+					Field & Type & Null & Key & Default & Extra \\ \hline 
+					id & int(11) & No & Primary & Null & auto\_increment \\ \hline 
+					code & varchar(20) & No &  & 0 &  \\ \hline 
+					marker & varchar(20) & No &  & Null &  \\ \hline 
+					status\_open & bool & No &  & 0 &  \\ \hline 
+					start\_time & datetime & No &  & 0000-00-00 00:00:00 &  \\ \hline 
+					end\_time & datetime & No &  & 0000-00-00 00:00:00 &  \\ \hline 
+					assessment\_id & int(11) & No & Foreign & Null &  \\ \hline 
+					session\_number & int(11) & No &  & Null &  \\ \hline 
+					\end{tabular}
+					
+					
+					
+					\caption{Assessment}
+					\begin{tabular}{|p{1.0in}|p{0.9in}|p{0.5in}|p{0.4in}|p{1.0in}|p{0.9in}|} \hline 
+					Field & Type & Null & Key & Default & Extra \\ \hline 
+					assessment\_id & int(11) & No & Primary & Null & auto\_increment \\ \hline 
+					type & varchar(11) & No &  & 0 &  \\ \hline 
+					description & text & Yes &  & Null &  \\ \hline 
+					assessment\_name & varchar(11) & No &  & 0 &  \\ \hline 
+					code & varchar(11) & No &  & 0 &  \\ \hline 
+					date\_issued & datetime & No &  & 0000-00-00 00:00:00 &  \\ \hline 
+					date\_due & datetime & No &  & 0000-00-00 00:00:00 &  \\ \hline 
+					mark\_id & int(11) & No & Foreign & Null &  \\ \hline 
+					submission\_details & text & No &  & Null &  \\ \hline 
+					\end{tabular}
+					
+					\caption{MarkAllocation}
+					\begin{tabular}{|p{1.0in}|p{1.0in}|p{0.4in}|p{0.4in}|p{1.0in}|p{0.9in}|} \hline 
+					Field & Type & Null & Key & Default & Extra \\ \hline 
+					mark\_id & int(11) & No & Primary & Null & auto\_increment \\ \hline 
+					mark & varchar(10) & Yes &  & 0 &  \\ \hline 
+					comment & varchar(30) & Yes &  & 0 &  \\ \hline 
+					marker\_name & varchar(20) & No &  & 0 &  \\ \hline 
+					timestamp & datetime & No &  & 0000-00-00 00:00:00 &  \\ \hline 
+					totalMark & varchar(20) & No &  & 0 &  \\ \hline 
+					\end{tabular}
+					
+					
+					
+					\caption{SimpleSumAggregator}
+					\begin{tabular}{|p{1.0in}|p{1.0in}|p{0.4in}|p{0.5in}|p{0.9in}|p{0.9in}|} \hline 
+					Field & Type & Null & Key & Default & Extra \\ \hline 
+					ssa\_id & int(11) & No & Primary & Null & auto\_increment \\ \hline 
+					assessment\_id & int(11) & No & Foreign & Null &  \\ \hline 
+					Num\_of\_questions & varchar(20) & No &  & 0 &  \\ \hline 
+					full\_marks & varchar(20) & No &  & 0 &  \\ \hline 
+					\end{tabular}
+					
+					
+					
+					\caption{WeightedSumAggregator}
+					\begin{tabular}{|p{1.0in}|p{0.9in}|p{0.4in}|p{0.6in}|p{0.9in}|p{0.9in}|} \hline 
+					Field & Type & Null & Key & Default & Extra \\ \hline 
+					wsa\_id & int(11) & No & Primary & Null & auto\_increment \\ \hline 
+					assessment\_id & int(11) & No & Foreign & Null &  \\ \hline 
+					num\_of\_assessements & varchar(20) & No &  & 0 &  \\ \hline 
+					calculate\_weights & int(11) & No &  & Null &  \\ \hline 
+					\end{tabular}
+					
+					
+					
+					\caption{BestOfAggregator}
+					\begin{tabular}{|p{1.0in}|p{1.0in}|p{0.4in}|p{0.5in}|p{0.9in}|p{0.9in}|} \hline 
+					Field & Type & Null & Key & Default & Extra \\ \hline 
+					boa\_id & int(11) & No & Primary & Null & auto\_increment \\ \hline 
+					assessement\_id & int(11) & No & Foreign & Null &  \\ \hline 
+					Best\_aggregates & varchar(20) & No &  & 0 &  \\ \hline 
+					sum\_marks & varchar(20) & No &  & 0 &  \\ \hline 
+					\end{tabular}
+					
+					
+					
+					
+					\caption{StudentReport}
+					\begin{tabular}{|p{1.0in}|p{1.0in}|p{0.4in}|p{0.4in}|p{1.0in}|p{0.9in}|} \hline 
+					Field & Type & Null & Key & Default & Extra \\ \hline 
+					sReport\_id & int(11) & No & Primary & Null & auto\_increment \\ \hline 
+					timestamp & datetime & No &  & 0000-00-00 00:00:00 &  \\ \hline 
+					assessment\_name & varchar(11) & No & Foreign & 0 &  \\ \hline 
+					ssa\_id & int(11) & No & Foreign & Null &  \\ \hline 
+					wsa\_id & int(11) & No & Foreign & Null &  \\ \hline 
+					\end{tabular}
+					
+					
+					
+					\caption{AuditReport}
+					\begin{tabular}{|p{1.1in}|p{0.9in}|p{0.5in}|p{0.4in}|p{1.0in}|p{0.9in}|} \hline 
+					Field & Type & Null & Key & Default & Extra \\ \hline 
+					ar\_id & int(11) & No & Primary & Null & auto\_increment \\ \hline 
+					datestamp & datetime & No &  & 0000-00-00 00:00:00 &  \\ \hline 
+					userId & int(11) & No &  & Null &  \\ \hline 
+					action\_performed & varchar(30) & Yes &  & 0 &  \\ \hline 
+					assessment\_CRUD & varchar(30) & No &  & 0 &  \\ \hline 
+					sessions\_CRUD & varchar(30) & No &  & 0 &  \\ \hline 
+					mark\_CRUD & varchar(30) & No &  & 0 &  \\ \hline 
+					session\_status\_request & varchar(30) & yes &  & 0 &  \\ \hline 
+					publish\_mark\_request & varchar(30) & Yes &  & 0 &  \\ \hline 
+					report\_request & varchar(30) & Yes &  & 0 &  \\ \hline 
+					\end{tabular}
+					
+					
+					\caption{AssessementReport} 
+					\begin{tabular}{|p{1.0in}|p{1.0in}|p{0.4in}|p{0.4in}|p{1.0in}|p{0.9in}|} \hline 
+					Field & Type & Null & Key & Default & Extra \\ \hline 
+					as\_id & int(11) & No & Primary & Null & auto\_increment \\ \hline 
+					datestamp & datetime & No &  & 0000-00-00 00:00:00 &  \\ \hline 
+					class\_average & varchar(20) & No &  & 0 &  \\ \hline 
+					frequency\_analysis & varchar(20) & No &  & 0 &  \\ \hline 
+					assessement\_id & int(11) & No & Foreign & Null &  \\ \hline 
+					\end{tabular}
 				\vspace{0.2in}
 			
 			
