@@ -79,6 +79,26 @@ generate customizable reports at different levels of granularity.
 		
 		\subsection{Chosen Frameworks}
 				%Please refer to the guideline document for some of the items that must be included in this part.
+				
+							 Software architecture framework provides the specification to developers how to organize and display the chosen libraries and design framework of a program. The framework provides a tool for the developers to use during the design of the software to include and implement the non-functional requirements as specified by the master specifications.
+							\\
+							\\ Object/Relational Mappers
+							\begin{itemize}
+								 \item Object and relational mappers can be used by the developers to allow the integration and access of repositories without the continuous repetition of code. The mappers serve as a developer defined interface translator, that allows the integration of varies systems without violating the non-functional requirements of security. This technique can be implemented in the design of the program allowing the cross communication from the repositories to the object orientated design. 
+								
+								\item The use of new database with fields from the LDAP repository and CS MySQL database, as specified in the requirement documentation, will be used repetitively in all process interactions (4.1.2). Continues use of these repository lookups can be minimised with the use of ORM model. The integration technique allow the developer to minimise the coding used in the interaction points by separating the query lookup and the implementation of the lookup request. In the implementation of the mappers, the developer must ensure that the data crossover is in the correct format and type as multiple data structures can be accessed that differ from the original data input.
+							\end{itemize}
+							 Web Frameworks
+							\begin{itemize}
+								\item Web application framework allows the design and support of dynamic website and web services. As specified by the client, Django web framework will be used for the development of the web services. Django is an open source high level framework that implements the model-view-controller architecture pattern. The application is a Python based program that emphasizes the reusability of code and integration without the need of repetition. The framework implements an Object-relational mapper with a dynamic API for database access.
+								
+							\end{itemize}
+							 Web service frameworks
+							\begin{itemize}
+							\item Web service framework allows the developer to decentralise inoperability and design front end services for web based applications. Frameworks allow the developer to improve on stability and design and allows connectivity on a word wide basis.
+							\item As per client request the web service framework must be an Apache based web service to be allowed to be run on an Apache web server. Apache CXF web service is an open source web service framework that allows the development of services using up frontend programming APIs. The web service allows the incorporation of a variety of protocols such as the SOAP, RESTful HTTP. This conforms to the constraints set by the client in regards to the protocols that must be used in the development of the program.
+							
+							\end{itemize}
 					\vspace{0.2in}	
 			
 		
