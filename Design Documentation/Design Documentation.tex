@@ -84,6 +84,37 @@ generate customizable reports at different levels of granularity.
 		
 		\subsection{Choices of Technologies}
 		%Please refer to the guideline document for some of the items that must be included in this part.
+					Programming Language
+					
+					 We are making use of Python as our programming language in order to implement the Django framework. Python is often viewed as a scripting language overlooking the fact that being as dynamic as it is, aids in rapid development. Python's standard library has more than 100 modules which coupled with Django makes it one of the most extensive rapid development packages.\\[1em]
+					Architectural Advantages:
+					\begin{itemize}
+						\item It is robust: Python has a relative small quantity of lines of code, which makes it less prone to issues, easier to debug, and more maintainable.
+						\item Flexible: Python is highly scalable becuase it wasn't originally created to answer a specific need, Python isn't driven by templates or specific APIs, and is therefore well-suited to rapid development of all kinds of applications.
+						\item Easy to LEARN AND USE: Since Python was not a language tought to us through the university, its ease of learning is definitly a aspect which is greatly valued
+					\end{itemize}
+					
+					 Database Technologies
+					\begin{itemize}
+						\item When starting a Django project it present you with a settings file in which database specifications and configurations can be made in order to manage the the systems models will work.
+						\item It supports multiple databases - MySQL, PostgreSQL, Oracle and SQLite, MySQL being the chosen database we will incorporate into the system. The choice of MySql deeply aids in Flexibility by providing the capacity to handle deeply embedded applications with a footprint of only 1MB to running massive data warehouses holding terabytes of information. It's unique storage-engine architecture will aid in the concurrent querying that will take place.
+						\item Django's object relational mapper is an incredibly powerful database tool. It handles creation of your database, as well as insert, update, delete queries and some quite advanced querying. This solves the architectual persistence constraint to a relational database.
+						
+					\end{itemize}
+					 
+					 Testing in Django
+					\begin{itemize}
+						\item Testing a Web application is a complex task, because a Web application is made of several layers of logic – from HTTP-level request handling, to form validation and processing, to template rendering. With Django’s test-execution framework and assorted utilities, you can simulate requests, insert test data, inspect your application’s output and generally verify your code is doing what it should be doing.
+						
+					\end{itemize}
+					
+					 Testing in Django 
+					\begin{itemize}
+						\item Support for both development and production servers has to be evident for operations in decoupling the various capabilities for the respective situations. 
+						\item Django has a built in server which can be used for testing on one local machine. The buiilt in local development server is however not applicable in a production setting due to the fact that this server does not go through any form of security or performance tests its simply for local development before production development.
+						\item Django can be run in conjunction with Apache, NGINX using WSGI, or Cherokee using a Python module called flup. Django also includes the ability to launch a FastCGI server, enabling use behind any web server which supports FastCGI, such as Lighttpd or Hiawatha
+					\end{itemize}
+		
 			\vspace{0.2in}
 		
 		
@@ -101,7 +132,8 @@ generate customizable reports at different levels of granularity.
 							 Web Frameworks
 							\begin{itemize}
 								\item Web application framework allows the design and support of dynamic website and web services. As specified by the client, Django web framework will be used for the development of the web services. Django is an open source high level framework that implements the model-view-controller architecture pattern. The application is a Python based program that emphasizes the reusability of code and integration without the need of repetition. The framework implements an Object-relational mapper with a dynamic API for database access.
-								
+								\item One of the most attractive aspects of Django is it's built in Admin capabilities, in other words creating seperate roles and capabilities for seperate users. This is a prerequisite for the system in order to provide differentiation between lectures and students and allow us to manage access capabilities for each stakeholder. 
+								\item Django consists of a built in forms module which is the other greatly appreciated aspect of this framework. It provides extensive capabilities of validation based on various specifications, can even generate and update your database from a database model you create, make your job even easier.
 							\end{itemize}
 							 Web service frameworks
 							\begin{itemize}
@@ -254,7 +286,7 @@ generate customizable reports at different levels of granularity.
 						\end{itemize}
 					\begin{figure}[h]
                                                 \centering
-                                                \includegraphics[width=6in, height=4in]{Pictures/assessmentReportClassDiag.jpg}
+                                                \includegraphics[width=6in, height=3in]{Pictures/assessmentReportClassDiag.jpg}
                                                 \caption{Assessment Report Class Diagram}
 					\end{figure}
 					\FloatBarrier
@@ -265,7 +297,7 @@ generate customizable reports at different levels of granularity.
 						\end{itemize}
 					\begin{figure}[h]
                                                 \centering
-                                                \includegraphics[width=6in, height=4in]{Pictures/studentMarkRequestDiag.jpg}
+                                                \includegraphics[width=6in, height=3in]{Pictures/studentMarkRequestDiag.jpg}
                                                 \caption{Student Mark Report Class Diagram}
 					\end{figure}
                      \FloatBarrier
@@ -273,96 +305,132 @@ generate customizable reports at different levels of granularity.
 						%These class diagrams must include attributes, methods and relationships
 						
 				\vspace{0.2in}
-		
+		\newpage
 		\subsection{System Process Specification}%Mbulungo Muusetsho
 						%Sequence and activity diagrams for detailed system process specifications
 						\begin{figure}[h]
 										\centering
-										\includegraphics[width=6in, height=4in]{Pictures/LoginActivityDiagram.jpg}
+										\includegraphics[width=6in, height=3in]{Pictures/LoginActivityDiagram.jpg}
 										\caption{User Log In Activity Diagram}
 						\end{figure}
 						\FloatBarrier
 						\begin{figure}[h]
 										\centering
-										\includegraphics[width=6in, height=4in]{Pictures/LeafAssesmentActivityDiagram.jpg}
+										\includegraphics[width=6in, height=3in]{Pictures/LeafAssesmentActivityDiagram.jpg}
 										\caption{Leaf Assessment Activity Diagram}
 						\end{figure}
 						\FloatBarrier
 						\begin{figure}[h]
 										\centering
-										\includegraphics[width=6in, height=4in]{Pictures/AggregateAssesmentActivityDiagram.jpg}
+										\includegraphics[width=6in, height=3in]{Pictures/AggregateAssesmentActivityDiagram.jpg}
 										\caption{Aggregate Assessment Activity Diagram}
 						\end{figure}
 						\FloatBarrier
 						\begin{figure}[h]
 										\centering
-										\includegraphics[width=6in, height=4in]{Pictures/AssessmentReportActivityDiagram.jpg}
+										\includegraphics[width=6in, height=3in]{Pictures/AssessmentReportActivityDiagram.jpg}
 										\caption{Assessment Report Activity Diagram}
 						\end{figure}
 						\FloatBarrier
 						\begin{figure}[h]
 										\centering
-										\includegraphics[width=6in, height=4in]{Pictures/StudentMarksReport.jpg}
+										\includegraphics[width=6in, height=3in]{Pictures/StudentMarksReport.jpg}
 										\caption{Student Marks Report Activity Diagram}
 						\end{figure}
 						\FloatBarrier
 						\begin{figure}[h]
 										\centering
-										\includegraphics[width=6in, height=4in]{Pictures/AuditReportActivityDiagram.jpg}
+										\includegraphics[width=6in, height=3in]{Pictures/AuditReportActivityDiagram.jpg}
 										\caption{Audit Report Activity Diagram}
 						\end{figure}
 				\vspace{0.2in}
-		
+		\newpage
 		\subsection{User Interface Designs} %MatthewHughes and Ndivhuwo Nthambeleni
 						%This includes work-flow specifications
+						
+			\begin{center}
+			
+			
 						\begin{figure}[h]
 										\centering
-										\includegraphics[width=5in, height=3.5in]{Pictures/Screens/Desktop/01logon.jpg}
+										\includegraphics[width=5in, height=2.5in]{Pictures/Screens/Desktop/01logon.jpg}
 										\caption{Log In Interface}
 						\end{figure}
 						\FloatBarrier
 						
 						\begin{figure}[h]
 										\centering
-										\includegraphics[width=5in, height=3.5in]{Pictures/Screens/Desktop/02homePage.jpg}
+										\includegraphics[width=5in, height=2.5in]{Pictures/Screens/Desktop/02homePage.jpg}
 										\caption{Home Interface}
 						\end{figure}
 						\FloatBarrier
 						
 						\begin{figure}[h]
 										\centering
-										\includegraphics[width=5in, height=3.5in]{Pictures/Screens/Desktop/03subject.jpg}
+										\includegraphics[width=5in, height=2.5in]{Pictures/Screens/Desktop/03subject.jpg}
 										\caption{Subject Interface}
 						\end{figure}
 						\FloatBarrier
 						
 						\textbf{\begin{figure}[h]
 										\centering
-										\includegraphics[width=5in, height=3.5in]{Pictures/Screens/Desktop/04assignment.jpg}
+										\includegraphics[width=5in, height=2.5in]{Pictures/Screens/Desktop/04assignment.jpg}
 										\caption{Assignments Interface}
 						\end{figure}
 						\FloatBarrier}
 						
 						\textbf{\begin{figure}[h]
 										\centering
-										\includegraphics[width=5in, height=3.5in]{Pictures/Screens/Desktop/04assignmentStudent.jpg}
+										\includegraphics[width=5in, height=2.5in]{Pictures/Screens/Desktop/04assignmentStudent.jpg}
 										\caption{Leaf Assignment Interface}
 						\end{figure}
 						\FloatBarrier}
 						
 						\textbf{\begin{figure}[h]
 										\centering
-										\includegraphics[width=5in, height=3.5in]{Pictures/Screens/Desktop/05practical.jpg}
+										\includegraphics[width=5in, height=2.5in]{Pictures/Screens/Desktop/05practical.jpg}
 										\caption{Practicals Interface}
 						\end{figure}
 						\FloatBarrier}
 						
 						\textbf{\begin{figure}[h]
 										\centering
-										\includegraphics[width=5in, height=3.5in]{Pictures/Screens/Desktop/05practicalMarkers.jpg}
+										\includegraphics[width=5in, height=2.5in]{Pictures/Screens/Desktop/05practicalMarkers.jpg}
 										\caption{Practical Markers Interface}
 						\end{figure}
 						\FloatBarrier}
+						
+						\textbf{\begin{figure}[h]
+										\centering
+										\includegraphics[width=2in, height=2in]{Pictures/Screens/Mobile/01logon.jpg}
+										\caption{Mobile Interface: Login Screen}
+						\end{figure}
+						\FloatBarrier}
+						\textbf{\begin{figure}[h]
+										\centering
+										\includegraphics[width=2in, height=2in]{Pictures/Screens/Mobile/02homePage.jpg}
+										\caption{Mobile Interface: Home Screen}
+						\end{figure}
+						\FloatBarrier}
+						\textbf{\begin{figure}[h]
+										\centering
+										\includegraphics[width=2in, height=2in]{Pictures/Screens/Mobile/03subject.jpg}
+										\caption{Mobile Interface: Subject Screen}
+						\end{figure}
+						\FloatBarrier}
+						\textbf{\begin{figure}[h]
+										\centering
+										\includegraphics[width=2in, height=2in]{Pictures/Screens/Mobile/04marking.jpg}
+										\caption{Mobile Interface: Marking Menu Screen}
+						\end{figure}
+						\FloatBarrier}
+						\textbf{\begin{figure}[h]
+										\centering
+										\includegraphics[width=2in, height=2in]{Pictures/Screens/Mobile/05marking.jpg}
+										\caption{Mobile Interface: Leaf Marking Screen}
+						\end{figure}
+						\FloatBarrier}
+			\end{center}
 				\vspace{0.2in}
 		\newpage
 		\subsection{Database Desgin} %Lutfiyya
