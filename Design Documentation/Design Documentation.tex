@@ -312,7 +312,7 @@ generate customizable reports at different levels of granularity.
 						
 				
 					\captionof{table}{Module}
-					\begin{tabular}{|p{1.0in}|p{0.9in}|p{0.5in}|p{0.4in}|p{1.0in}|p{0.9in}|} \hline
+					\begin{tabular}{|p{1.0in}|p{0.9in}|p{0.5in}|p{0.4in}|p{1.0in}|p{1.1in}|} \hline
 					Field & Type & Null & Key & Default & Extra \\ \hline
 					id & int(11) & No & Primary & Null & auto\_increment \\ \hline
 					code & varchar(20) & No &  & 0 &  \\ \hline
@@ -332,7 +332,7 @@ generate customizable reports at different levels of granularity.
 
 
 					\captionof{table}{Session}
-					\begin{tabular}{|p{1.0in}|p{0.9in}|p{0.5in}|p{0.4in}|p{1.0in}|p{0.9in}|} \hline
+					\begin{tabular}{|p{1.0in}|p{0.9in}|p{0.5in}|p{0.4in}|p{1.0in}|p{1.1in}|} \hline
 					Field & Type & Null & Key & Default & Extra \\ \hline
 					id & int(11) & No & Primary & Null & auto\_increment \\ \hline
 					code & varchar(20) & No &  & 0 &  \\ \hline
@@ -347,7 +347,7 @@ generate customizable reports at different levels of granularity.
 					
 					\newpage
 					\captionof{table}{Assessment}
-					\begin{tabular}{|p{1.0in}|p{0.9in}|p{0.5in}|p{0.4in}|p{1.0in}|p{0.9in}|} \hline
+					\begin{tabular}{|p{1.0in}|p{0.9in}|p{0.5in}|p{0.4in}|p{1.0in}|p{1.1in}|} \hline
 					Field & Type & Null & Key & Default & Extra \\ \hline
 					assessment\_id & int(11) & No & Primary & Null & auto\_increment \\ \hline
 					type & varchar(11) & No &  & 0 &  \\ \hline
@@ -361,7 +361,7 @@ generate customizable reports at different levels of granularity.
 					\end{tabular}
 					
 					\captionof{table}{Mark Allocation}
-					\begin{tabular}{|p{1.0in}|p{1.0in}|p{0.4in}|p{0.4in}|p{1.0in}|p{0.9in}|} \hline
+					\begin{tabular}{|p{1.0in}|p{1.0in}|p{0.4in}|p{0.4in}|p{1.0in}|p{1.1in}|} \hline
 					Field & Type & Null & Key & Default & Extra \\ \hline
 					mark\_id & int(11) & No & Primary & Null & auto\_increment \\ \hline
 					mark & varchar(10) & Yes &  & 0 &  \\ \hline
@@ -374,7 +374,7 @@ generate customizable reports at different levels of granularity.
 					
 					
 					\captionof{table}{Simple Sum Aggregator}
-					\begin{tabular}{|p{1.0in}|p{1.0in}|p{0.4in}|p{0.5in}|p{0.9in}|p{0.9in}|} \hline
+					\begin{tabular}{|p{1.0in}|p{1.0in}|p{0.4in}|p{0.5in}|p{0.9in}|p{1.1in}|} \hline
 					Field & Type & Null & Key & Default & Extra \\ \hline
 					ssa\_id & int(11) & No & Primary & Null & auto\_increment \\ \hline
 					assessment\_id & int(11) & No & Foreign & Null &  \\ \hline
@@ -385,7 +385,7 @@ generate customizable reports at different levels of granularity.
 					
 					
 					\captionof{table}{Weighted Sum Aggregator}
-					\begin{tabular}{|p{1.0in}|p{0.9in}|p{0.4in}|p{0.6in}|p{0.9in}|p{0.9in}|} \hline
+					\begin{tabular}{|p{1.0in}|p{0.9in}|p{0.4in}|p{0.6in}|p{0.9in}|p{1.1in}|} \hline
 					Field & Type & Null & Key & Default & Extra \\ \hline
 					wsa\_id & int(11) & No & Primary & Null & auto\_increment \\ \hline
 					assessment\_id & int(11) & No & Foreign & Null &  \\ \hline
@@ -396,7 +396,7 @@ generate customizable reports at different levels of granularity.
 					
 					\newpage
 					\captionof{table}{Best Of Aggregator}
-					\begin{tabular}{|p{1.0in}|p{1.0in}|p{0.4in}|p{0.5in}|p{0.9in}|p{0.9in}|} \hline
+					\begin{tabular}{|p{1.0in}|p{1.0in}|p{0.4in}|p{0.5in}|p{0.9in}|p{1.1in}|} \hline
 					Field & Type & Null & Key & Default & Extra \\ \hline
 					boa\_id & int(11) & No & Primary & Null & auto\_increment \\ \hline
 					assessement\_id & int(11) & No & Foreign & Null &  \\ \hline
@@ -408,7 +408,7 @@ generate customizable reports at different levels of granularity.
 					
 					
 					\captionof{table}{Student Report}
-					\begin{tabular}{|p{1.0in}|p{1.0in}|p{0.4in}|p{0.4in}|p{1.0in}|p{0.9in}|} \hline
+					\begin{tabular}{|p{1.0in}|p{1.0in}|p{0.4in}|p{0.4in}|p{1.0in}|p{1.1in}|} \hline
 					Field & Type & Null & Key & Default & Extra \\ \hline
 					sReport\_id & int(11) & No & Primary & Null & auto\_increment \\ \hline
 					timestamp & datetime & No &  & 0000-00-00 00:00:00 &  \\ \hline
@@ -420,7 +420,7 @@ generate customizable reports at different levels of granularity.
 					
 					
 					\captionof{table}{Audit Report}
-					\begin{tabular}{|p{1.1in}|p{0.9in}|p{0.5in}|p{0.4in}|p{1.0in}|p{0.9in}|} \hline
+					\begin{tabular}{|p{1.1in}|p{0.9in}|p{0.5in}|p{0.4in}|p{1.0in}|p{1.1in}|} \hline
 					Field & Type & Null & Key & Default & Extra \\ \hline
 					ar\_id & int(11) & No & Primary & Null & auto\_increment \\ \hline
 					datestamp & datetime & No &  & 0000-00-00 00:00:00 &  \\ \hline
@@ -436,7 +436,7 @@ generate customizable reports at different levels of granularity.
 					
 					
 					\captionof{table}{Assessement Report}
-					\begin{tabular}{|p{1.0in}|p{1.0in}|p{0.4in}|p{0.4in}|p{1.0in}|p{0.9in}|} \hline
+					\begin{tabular}{|p{1.0in}|p{1.0in}|p{0.4in}|p{0.4in}|p{1.0in}|p{1.1in}|} \hline
 					Field & Type & Null & Key & Default & Extra \\ \hline
 					as\_id & int(11) & No & Primary & Null & auto\_increment \\ \hline
 					datestamp & datetime & No &  & 0000-00-00 00:00:00 &  \\ \hline
