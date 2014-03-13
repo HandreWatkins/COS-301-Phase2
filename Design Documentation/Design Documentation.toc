@@ -1,0 +1,16 @@
+\select@language {english}
+\contentsline {section}{\numberline {1}Background}{3}
+\contentsline {section}{\numberline {2}Vision}{3}
+\contentsline {section}{\numberline {3}Software Architecture Design}{3}
+\contentsline {subsection}{\numberline {3.1}Choices of Technologies}{3}
+\contentsline {subsection}{\numberline {3.2}Chosen Frameworks}{3}
+\contentsline {subsection}{\numberline {3.3}Chosen Protocols}{4}
+\contentsline {subsection}{\numberline {3.4}Chosen Libraries}{5}
+\contentsline {section}{\numberline {4}Application Design}{6}
+\contentsline {subsection}{\numberline {4.1}Lower Levels of Granularity Specification}{6}
+\contentsline {subsection}{\numberline {4.2}API Specifications}{8}
+\contentsline {subsection}{\numberline {4.3}System Class Diagrams }{8}
+\contentsline {subsection}{\numberline {4.4}System Process Specification}{8}
+\contentsline {subsection}{\numberline {4.5}User Interface Designs}{8}
+\contentsline {subsection}{\numberline {4.6}Database Desgin}{9}
+\contentsline {section}{\numberline {5}Glossary}{15}

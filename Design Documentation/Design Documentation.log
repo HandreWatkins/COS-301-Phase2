@@ -1,0 +1,787 @@
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.3.13)  13 MAR 2014 12:35
+entering extended mode
+**C:/Users/user/Desktop/master/Design*Documentation/Design*Documentation.tex
+("C:/Users/user/Desktop/master/Design Documentation/Design Documentation.tex"
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
+abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
+croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, ga
+lician, german, german-x-2013-05-26, greek, gujarati, hindi, hungarian, iceland
+ic, indonesian, interlingua, irish, italian, kannada, kurmanji, latin, latvian,
+ lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerman, n
+german-x-2013-05-26, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
+ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
+an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
+ishmax, welsh, loaded.
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\article.cls"
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\size12.clo"
+File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.sty"
+Package: babel 2008/07/08 v3.8m The Babel package
+
+*************************************
+* Local config file bblopts.cfg used
+*
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\bblopts.cfg"
+File: bblopts.cfg 2006/07/31 v1.0 MiKTeX 'babel' configuration
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\babel\english.ldf"
+Language: english 2005/03/30 v3.3o English support from the babel system
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.def"
+File: babel.def 2008/07/08 v3.8m Babel common definitions
+\babel@savecnt=\count87
+\U@D=\dimen103
+)
+\l@canadian = a dialect from \language\l@american 
+\l@australian = a dialect from \language\l@british 
+\l@newzealand = a dialect from \language\l@british 
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\inputenc.sty"
+Package: inputenc 2008/03/30 v1.1d Input encoding file
+\inpenc@prehook=\toks14
+\inpenc@posthook=\toks15
+
+
+! LaTeX Error: File `utf8x.def' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: def)
+
+Enter file name: 
+
+Package inputenc Warning: No characters defined
+(inputenc)                by input encoding change to `utf8x'
+(inputenc)                 on input line 131.
+
+)
+
+! LaTeX Error: File `pdfpages.sty' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: sty)
+
+Enter file name: 
+
+! LaTeX Error: File `lastpage.sty' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: sty)
+
+Enter file name: 
+
+! LaTeX Error: File `extramarks.sty' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: sty)
+
+Enter file name: 
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks16
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count88
+))
+\Gin@req@height=\dimen104
+\Gin@req@width=\dimen105
+)
+
+! LaTeX Error: File `listings.sty' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: sty)
+
+Enter file name: 
+("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\courier.sty"
+Package: courier 2005/04/12 PSNFSS-v9.2a (WaS) 
+)
+
+! LaTeX Error: File `placeins.sty' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: sty)
+
+Enter file name: 
+
+! LaTeX Error: File `caption.sty' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: sty)
+
+Enter file name: 
+No file Design*Documentation.aux.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+[1
+
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
+No file Design*Documentation.toc.
+\tf@toc=\write3
+[2]
+Underfull \hbox (badness 10000) in paragraph at lines 84--87
+
+ []
+
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 88.
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 88.
+ [3]
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `utf8x'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.110 ...ces) should be able to access the systemâ
+                                                  €™s content through the SO...
+
+? 
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `utf8x'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.110 ...es) should be able to access the systemâ€
+                                                  ™s content through the SOA...
+
+? 
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `utf8x'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.110 ...s) should be able to access the systemâ€™
+                                                  s content through the SOAP...
+
+? 
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `utf8x'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.118 ...\item It is used to retrieve the studentâ
+                                                  €™s personal details and c...
+
+? 
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `utf8x'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.118 ...item It is used to retrieve the studentâ€
+                                                  ™s personal details and cl...
+
+? 
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `utf8x'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.118 ...tem It is used to retrieve the studentâ€™
+                                                  s personal details and cla...
+
+? 
+[4]
+Overfull \hbox (31.71913pt too wide) in paragraph at lines 137--138
+[]\OT1/cmr/m/n/12 It pro-vides a con-nec-tion to the CS LDAP sys-tem for au-the
+n-ti-ca-tion us-ing ldap.initialize()
+ []
+
+[5] [6] [7] <Pictures/MiniPhase2ClassDiag.jpg, id=27, 929.4725pt x 538.01pt>
+File: Pictures/MiniPhase2ClassDiag.jpg Graphic file (type jpg)
+
+<use Pictures/MiniPhase2ClassDiag.jpg>
+Package pdftex.def Info: Pictures/MiniPhase2ClassDiag.jpg used on input line 23
+7.
+(pdftex.def)             Requested size: 433.61852pt x 289.08443pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+! Undefined control sequence.
+l.240 					\FloatBarrier
+                        
+? 
+<Pictures/assessmentReportClassDiag.jpg, id=28, 979.66pt x 327.2225pt>
+File: Pictures/assessmentReportClassDiag.jpg Graphic file (type jpg)
+
+<use Pictures/assessmentReportClassDiag.jpg>
+Package pdftex.def Info: Pictures/assessmentReportClassDiag.jpg used on input l
+ine 248.
+(pdftex.def)             Requested size: 433.60791pt x 289.08011pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+! Undefined control sequence.
+l.251 					\FloatBarrier
+                        
+? 
+<Pictures/studentMarkRequestDiag.jpg, id=29, 829.0975pt x 275.0275pt>
+File: Pictures/studentMarkRequestDiag.jpg Graphic file (type jpg)
+
+<use Pictures/studentMarkRequestDiag.jpg>
+Package pdftex.def Info: Pictures/studentMarkRequestDiag.jpg used on input line
+ 259.
+(pdftex.def)             Requested size: 433.61278pt x 289.10632pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+! Undefined control sequence.
+l.262                      \FloatBarrier
+                                        
+? 
+<Pictures/LoginActivityDiagram.jpg, id=30, 1184.425pt x 531.9875pt>
+File: Pictures/LoginActivityDiagram.jpg Graphic file (type jpg)
+
+<use Pictures/LoginActivityDiagram.jpg>
+Package pdftex.def Info: Pictures/LoginActivityDiagram.jpg used on input line 2
+72.
+(pdftex.def)             Requested size: 433.62181pt x 289.08728pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+! Undefined control sequence.
+l.275 						\FloatBarrier
+                         
+? 
+<Pictures/LeafAssesmentActivityDiagram.jpg, id=31, 1174.3875pt x 521.95pt>
+File: Pictures/LeafAssesmentActivityDiagram.jpg Graphic file (type jpg)
+
+<use Pictures/LeafAssesmentActivityDiagram.jpg>
+Package pdftex.def Info: Pictures/LeafAssesmentActivityDiagram.jpg used on inpu
+t line 278.
+(pdftex.def)             Requested size: 433.62059pt x 289.08038pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+! Undefined control sequence.
+l.281 						\FloatBarrier
+                         
+? 
+
+<Pictures/AggregateAssesmentActivityDiagram.jpg, id=32, 1170.3725pt x 542.025pt
+>
+File: Pictures/AggregateAssesmentActivityDiagram.jpg Graphic file (type jpg)
+ <use Pictures/AggregateAssesmentActivityDiagram.jpg>
+Package pdftex.def Info: Pictures/AggregateAssesmentActivityDiagram.jpg used on
+ input line 284.
+(pdftex.def)             Requested size: 433.62038pt x 289.09142pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+! Undefined control sequence.
+l.287 						\FloatBarrier
+                         
+? 
+
+<Pictures/AssessmentReportActivityDiagram.jpg, id=33, 1290.8225pt x 517.935pt>
+File: Pictures/AssessmentReportActivityDiagram.jpg Graphic file (type jpg)
+
+<use Pictures/AssessmentReportActivityDiagram.jpg>
+Package pdftex.def Info: Pictures/AssessmentReportActivityDiagram.jpg used on i
+nput line 290.
+(pdftex.def)             Requested size: 433.61493pt x 289.09325pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+! Undefined control sequence.
+l.293 						\FloatBarrier
+                         
+? 
+<Pictures/StudentMarksReport.jpg, id=34, 1290.8225pt x 521.95pt>
+File: Pictures/StudentMarksReport.jpg Graphic file (type jpg)
+
+<use Pictures/StudentMarksReport.jpg>
+Package pdftex.def Info: Pictures/StudentMarksReport.jpg used on input line 296
+.
+(pdftex.def)             Requested size: 433.61493pt x 289.08038pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+! Undefined control sequence.
+l.299 						\FloatBarrier
+                         
+? 
+<Pictures/AuditReportActivityDiagram.jpg, id=35, 1210.5225pt x 542.025pt>
+File: Pictures/AuditReportActivityDiagram.jpg Graphic file (type jpg)
+
+<use Pictures/AuditReportActivityDiagram.jpg>
+Package pdftex.def Info: Pictures/AuditReportActivityDiagram.jpg used on input 
+line 302.
+(pdftex.def)             Requested size: 433.62665pt x 289.09142pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[8]
+! Undefined control sequence.
+l.314 					\captionof
+                     {table}{Module}
+? 
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 315.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 315.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 315.
+
+Overfull \hbox (13.3573pt too wide) in paragraph at lines 317--317
+[]\OT1/cmr/m/n/12 Primary| 
+ []
+
+
+Overfull \hbox (12.62413pt too wide) in paragraph at lines 317--317
+[]\OT1/cmr/m/n/12 auto[]increment| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 325--325
+[]\OT1/cmr/m/n/12 tinyint(3)
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 326--326
+[]\OT1/cmr/m/n/12 0000-00-00
+ []
+
+
+Overfull \hbox (12.77301pt too wide) in paragraph at lines 327--327
+[]\OT1/cmr/m/n/12 discussion[]board| 
+ []
+
+
+Overfull \hbox (0.5662pt too wide) in paragraph at lines 328--328
+[]\OT1/cmr/m/n/12 tutors[]allowed| 
+ []
+
+
+Overfull \hbox (8.49112pt too wide) in paragraph at lines 314--331
+\OT1/cmr/m/n/12 tableModule [] 
+ []
+
+! Undefined control sequence.
+l.334 					\captionof
+                     {table}{Session}
+? 
+
+Overfull \hbox (13.3573pt too wide) in paragraph at lines 337--337
+[]\OT1/cmr/m/n/12 Primary| 
+ []
+
+
+Overfull \hbox (12.62413pt too wide) in paragraph at lines 337--337
+[]\OT1/cmr/m/n/12 auto[]increment| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 341--341
+[]\OT1/cmr/m/n/12 0000-00-00
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 342--342
+[]\OT1/cmr/m/n/12 0000-00-00
+ []
+
+
+Overfull \hbox (9.11429pt too wide) in paragraph at lines 343--343
+[]\OT1/cmr/m/n/12 Foreign| 
+ []
+
+
+Overfull \hbox (5.59253pt too wide) in paragraph at lines 344--344
+[]\OT1/cmr/m/n/12 session[]number| 
+ []
+
+
+Overfull \hbox (24.29234pt too wide) in paragraph at lines 334--346
+[]\OT1/cmr/m/n/12 tableSession [] 
+ []
+
+[9 <C:/Users/user/Desktop/master/Design Documentation/Pictures/MiniPhase2ClassD
+iag.jpg>] [10 <C:/Users/user/Desktop/master/Design Documentation/Pictures/asses
+smentReportClassDiag.jpg>]
+! Undefined control sequence.
+l.349 					\captionof
+                     {table}{Assessment}
+? 
+
+Overfull \hbox (13.3573pt too wide) in paragraph at lines 352--352
+[]\OT1/cmr/m/n/12 Primary| 
+ []
+
+
+Overfull \hbox (12.62413pt too wide) in paragraph at lines 352--352
+[]\OT1/cmr/m/n/12 auto[]increment| 
+ []
+
+
+Overfull \hbox (14.7966pt too wide) in paragraph at lines 355--355
+[]\OT1/cmr/m/n/12 assessment[]name| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 357--357
+[]\OT1/cmr/m/n/12 0000-00-00
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 358--358
+[]\OT1/cmr/m/n/12 0000-00-00
+ []
+
+
+Overfull \hbox (9.11429pt too wide) in paragraph at lines 359--359
+[]\OT1/cmr/m/n/12 Foreign| 
+ []
+
+
+Overfull \hbox (20.99792pt too wide) in paragraph at lines 360--360
+[]\OT1/cmr/m/n/12 submission[]details| 
+ []
+
+
+Overfull \hbox (45.96017pt too wide) in paragraph at lines 349--362
+[]\OT1/cmr/m/n/12 tableAssessment [] 
+ []
+
+! Undefined control sequence.
+l.363 					\captionof
+                     {table}{Mark Allocation}
+? 
+
+Overfull \hbox (13.3573pt too wide) in paragraph at lines 366--366
+[]\OT1/cmr/m/n/12 Primary| 
+ []
+
+
+Overfull \hbox (12.62413pt too wide) in paragraph at lines 366--366
+[]\OT1/cmr/m/n/12 auto[]increment| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 370--370
+[]\OT1/cmr/m/n/12 0000-00-00
+ []
+
+
+Overfull \hbox (70.50018pt too wide) in paragraph at lines 363--373
+[]\OT1/cmr/m/n/12 tableMark Al-lo-ca-tion [] 
+ []
+
+! Undefined control sequence.
+l.376 					\captionof
+                     {table}{Simple Sum Aggregator}
+? 
+[11 <C:/Users/user/Desktop/master/Design Documentation/Pictures/studentMarkRequ
+estDiag.jpg>]
+Overfull \hbox (6.12985pt too wide) in paragraph at lines 379--379
+[]\OT1/cmr/m/n/12 Primary| 
+ []
+
+
+Overfull \hbox (12.62413pt too wide) in paragraph at lines 379--379
+[]\OT1/cmr/m/n/12 auto[]increment| 
+ []
+
+
+Overfull \hbox (1.88684pt too wide) in paragraph at lines 380--380
+[]\OT1/cmr/m/n/12 Foreign| 
+ []
+
+
+Overfull \hbox (18.23906pt too wide) in paragraph at lines 381--381
+[]\OT1/cmr/m/n/12 Num[]of[]questions| 
+ []
+
+
+Overfull \hbox (107.38593pt too wide) in paragraph at lines 376--384
+[]\OT1/cmr/m/n/12 tableSimple Sum Ag-gre-ga-tor [] 
+ []
+
+! Undefined control sequence.
+l.387 					\captionof
+                     {table}{Weighted Sum Aggregator}
+? 
+
+Overfull \hbox (12.62413pt too wide) in paragraph at lines 390--390
+[]\OT1/cmr/m/n/12 auto[]increment| 
+ []
+
+
+Overfull \hbox (33.45279pt too wide) in paragraph at lines 392--392
+[]\OT1/cmr/m/n/12 num[]of[]assessements| 
+ []
+
+
+Overfull \hbox (14.92715pt too wide) in paragraph at lines 393--393
+[]\OT1/cmr/m/n/12 calculate[]weights| 
+ []
+
+
+Overfull \hbox (120.76357pt too wide) in paragraph at lines 387--395
+[]\OT1/cmr/m/n/12 tableWeighted Sum Ag-gre-ga-tor [] 
+ []
+
+[12 <C:/Users/user/Desktop/master/Design Documentation/Pictures/LoginActivityDi
+agram.jpg>]
+! Undefined control sequence.
+l.398 					\captionof
+                     {table}{Best Of Aggregator}
+? 
+
+Overfull \hbox (6.12985pt too wide) in paragraph at lines 401--401
+[]\OT1/cmr/m/n/12 Primary| 
+ []
+
+
+Overfull \hbox (12.62413pt too wide) in paragraph at lines 401--401
+[]\OT1/cmr/m/n/12 auto[]increment| 
+ []
+
+
+Overfull \hbox (2.39395pt too wide) in paragraph at lines 402--402
+[]\OT1/cmr/m/n/12 assessement[]id| 
+ []
+
+
+Overfull \hbox (1.88684pt too wide) in paragraph at lines 402--402
+[]\OT1/cmr/m/n/12 Foreign| 
+ []
+
+
+Overfull \hbox (8.29945pt too wide) in paragraph at lines 403--403
+[]\OT1/cmr/m/n/12 Best[]aggregates| 
+ []
+
+
+Overfull \hbox (85.4181pt too wide) in paragraph at lines 398--406
+[]\OT1/cmr/m/n/12 tableBest Of Ag-gre-ga-tor [] 
+ []
+
+! Undefined control sequence.
+l.410 					\captionof
+                     {table}{Student Report}
+? 
+
+Overfull \hbox (13.3573pt too wide) in paragraph at lines 413--413
+[]\OT1/cmr/m/n/12 Primary| 
+ []
+
+
+Overfull \hbox (12.62413pt too wide) in paragraph at lines 413--413
+[]\OT1/cmr/m/n/12 auto[]increment| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 414--414
+[]\OT1/cmr/m/n/12 0000-00-00
+ []
+
+
+Overfull \hbox (14.7966pt too wide) in paragraph at lines 415--415
+[]\OT1/cmr/m/n/12 assessment[]name| 
+ []
+
+
+Overfull \hbox (9.11429pt too wide) in paragraph at lines 415--415
+[]\OT1/cmr/m/n/12 Foreign| 
+ []
+
+
+Overfull \hbox (9.11429pt too wide) in paragraph at lines 416--416
+[]\OT1/cmr/m/n/12 Foreign| 
+ []
+
+
+Overfull \hbox (9.11429pt too wide) in paragraph at lines 417--417
+[]\OT1/cmr/m/n/12 Foreign| 
+ []
+
+
+Overfull \hbox (66.10023pt too wide) in paragraph at lines 410--419
+[]\OT1/cmr/m/n/12 tableStudent Re-port [] 
+ []
+
+! Undefined control sequence.
+l.422 					\captionof
+                     {table}{Audit Report}
+? 
+
+Overfull \hbox (13.3573pt too wide) in paragraph at lines 425--425
+[]\OT1/cmr/m/n/12 Primary| 
+ []
+
+
+Overfull \hbox (12.62413pt too wide) in paragraph at lines 425--425
+[]\OT1/cmr/m/n/12 auto[]increment| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 426--426
+[]\OT1/cmr/m/n/12 0000-00-00
+ []
+
+
+Overfull \hbox (8.2872pt too wide) in paragraph at lines 428--428
+[]\OT1/cmr/m/n/12 action[]performed| 
+ []
+
+
+Overfull \hbox (14.74132pt too wide) in paragraph at lines 429--429
+[]\OT1/cmr/m/n/12 assessment[]CRUD| 
+ []
+
+
+Overfull \hbox (31.51279pt too wide) in paragraph at lines 432--432
+[]\OT1/cmr/m/n/12 session[]status[]request| 
+ []
+
+
+Overfull \hbox (29.61975pt too wide) in paragraph at lines 433--433
+[]\OT1/cmr/m/n/12 publish[]mark[]request| 
+ []
+
+
+Overfull \hbox (62.8792pt too wide) in paragraph at lines 422--436
+[]\OT1/cmr/m/n/12 tableAudit Re-port [] 
+ []
+
+! Undefined control sequence.
+l.438 					\captionof
+                     {table}{Assessement Report}
+? 
+[13 <C:/Users/user/Desktop/master/Design Documentation/Pictures/LeafAssesmentAc
+tivityDiagram.jpg>]
+Overfull \hbox (13.3573pt too wide) in paragraph at lines 441--441
+[]\OT1/cmr/m/n/12 Primary| 
+ []
+
+
+Overfull \hbox (12.62413pt too wide) in paragraph at lines 441--441
+[]\OT1/cmr/m/n/12 auto[]increment| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 442--442
+[]\OT1/cmr/m/n/12 0000-00-00
+ []
+
+
+Overfull \hbox (21.52014pt too wide) in paragraph at lines 444--444
+[]\OT1/cmr/m/n/12 frequency[]analysis| 
+ []
+
+
+Overfull \hbox (2.39395pt too wide) in paragraph at lines 445--445
+[]\OT1/cmr/m/n/12 assessement[]id| 
+ []
+
+
+Overfull \hbox (9.11429pt too wide) in paragraph at lines 445--445
+[]\OT1/cmr/m/n/12 Foreign| 
+ []
+
+
+Overfull \hbox (89.53055pt too wide) in paragraph at lines 438--448
+[]\OT1/cmr/m/n/12 tableAssessement Re-port []
+ []
+
+[14 <C:/Users/user/Desktop/master/Design Documentation/Pictures/AggregateAssesm
+entActivityDiagram.jpg>] [15 <C:/Users/user/Desktop/master/Design Documentation
+/Pictures/AssessmentReportActivityDiagram.jpg>] [16 <C:/Users/user/Desktop/mast
+er/Design Documentation/Pictures/StudentMarksReport.jpg> <C:/Users/user/Desktop
+/master/Design Documentation/Pictures/AuditReportActivityDiagram.jpg>]
+("C:\Users\user\Desktop\master\Design Documentation\Design Documentation.aux") 
+) 
+Here is how much of TeX's memory you used:
+ 1260 strings out of 493921
+ 17769 string characters out of 3147285
+ 84906 words of memory out of 3000000
+ 4562 multiletter control sequences out of 15000+200000
+ 8500 words of font info for 30 fonts, out of 3000000 for 9000
+ 841 hyphenation exceptions out of 8191
+ 27i,9n,19p,770b,293s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Pro
+gram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program File
+s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on "Design Documentation.pdf" (16 pages, 568422 bytes).
+PDF statistics:
+ 75 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 46 words of extra memory for PDF output out of 10000 (max. 10000000)
+

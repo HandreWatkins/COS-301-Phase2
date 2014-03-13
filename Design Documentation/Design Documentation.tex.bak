@@ -34,13 +34,13 @@
 	  \LARGE {\bf Group 1}\\[1em]
 	  \LARGE {\bf Group Members:}\\[2em]
 	  \large
-	
+	  
 	     Mbulungo Musetsho				(10176382) \\[1em]
 	     Ndivhuwo Ntambeleni			(10001183) \\[1em]
-	     Pule Legodi                    (29302732) \\[1em]
+	     Pule Legodi                                (29302732) \\[1em]
 	     Lutfiyya Razak				(10198408) \\[1em]
 	    	%Enter your details below just as the one above
-	
+	    
 	\end{center}%
 	
 
@@ -54,7 +54,7 @@
 	
 				 %We must give an introduction of this document
 		
-		
+		 
 	
 	\section{Vision}
 	The purpose of the project is to develop a software solution which provides
@@ -85,7 +85,7 @@ generate customizable reports at different levels of granularity.
 							\\
 							\\ Object/Relational Mappers
 							\begin{itemize}
-								 \item Object and relational mappers can be used by the developers to allow the integration and access of repositories without the continuous repetition of code. The mappers serve as a developer defined interface translator, that allows the integration of varies systems without violating the non-functional requirements of security. This technique can be implemented in the design of the program allowing the cross communication from the repositories to the object orientated design.
+								 \item Object and relational mappers can be used by the developers to allow the integration and access of repositories without the continuous repetition of code. The mappers serve as a developer defined interface translator, that allows the integration of varies systems without violating the non-functional requirements of security. This technique can be implemented in the design of the program allowing the cross communication from the repositories to the object orientated design. 
 								
 								\item The use of new database with fields from the LDAP repository and CS MySQL database, as specified in the requirement documentation, will be used repetitively in all process interactions (4.1.2). Continues use of these repository lookups can be minimised with the use of ORM model. The integration technique allow the developer to minimise the coding used in the interaction points by separating the query lookup and the implementation of the lookup request. In the implementation of the mappers, the developer must ensure that the data crossover is in the correct format and type as multiple data structures can be accessed that differ from the original data input.
 							\end{itemize}
@@ -107,7 +107,7 @@ generate customizable reports at different levels of granularity.
 				%Please refer to the guideline document for some of the items that must be included in this part.
 			\begin{enumerate}
 	                    \item Simple Object Access Protocol (SOAP) \\*
-	                    All systems (devices) should be able to access the system’s content through the SOAP-based web services.
+	                    All systems (devices) should be able to access the system’s content through the SOAP-based web services. 
 	                        \begin{enumerate}
 	                            \item The devices (systems) will send a request, procedure call, or a message such as getMark to search or retrieve information (average mark for the module, number of distinctions) through the SOAP-based web services.
 	                            \item The SOAP-based web service will process the request or message and send a response to the devices (systems) in a form of a structured XML-based data.
@@ -123,39 +123,13 @@ generate customizable reports at different levels of granularity.
 	                            \item Used to send and retrieve sensitive data(marks and modules) through a secured (HTTPS) channel.
 	                            \item Used to send a GET and POST requests to the web server and web services. Such as adding or updating a student mark.
 	                        \end{enumerate}
-	
+	                        
               		\end{enumerate}
 			\vspace{0.2in}
 			
 		
 		\subsection{Chosen Libraries}
 				%Please refer to the guideline document for some of the items that must be included in this part.
-                \begin{enumerate}
-					\item Python ldap library \\*
-					It is used to integrate LDAP to the Mark sheet system.
-						\begin{enumerate}
-							\item It provides  a connection to the CS LDAP system for authentication using ldap.initialize() and ldap.open() functionalities.
-							\item It also provides a mechanism for retrieving information from the directory, using functions such as LDAPObject.result()
-							\item It provides also a list of other LDAP request and response methods
-						\end{enumerate}
-					\item pyPDF library \\*
-					It is a Python library for generating PDFs.
-						\begin{enumerate}
-							\item It is used to generate pdf files or reports using the python programming language.
-							\item It provides different functionalities such as PdfFileWriter class which writes and add pages to the pdf and the merging of different pages.
-						\end{enumerate}
-					\item MySQLdb Library \\*
-					It is a python database library that integrates the MySQL database.
-						\begin{enumerate}
-							\item It provides functions such as MySQLdb.connect()  for establishing a connection to the MySQL database.
-							\item It provides also a methods that executes database queries such as INSERT, DELETE, UPDATE, and SELECT.
-						\end{enumerate}
-					\item The CSV File library \\*
-					It is the python based library, for creating CSV files.
-						\begin{enumerate}
-							\item It provides the functionality to import and export CSV files.
-						\end{enumerate}
-				\end{enumerate}
 			\vspace{0.2in}
 
 			
@@ -181,7 +155,7 @@ generate customizable reports at different levels of granularity.
 						\end{enumerate}
 						\item Controller: The controller receives, based on the kind of operation the user selects, the required information and sends it to the Model for either insertion, update, or deletion.
 						\item Model: The model will respectively receive the required information and either save a new leaf assessment, update or delete an existing leaf assessment. After the respective opration, the model will notify the view of changes made to the database.
-						
+						 
 					\end{itemize}
 					\item Aggregate Assessment:
 						\begin{itemize}
@@ -213,7 +187,7 @@ generate customizable reports at different levels of granularity.
 		\subsection{API Specifications}
 						%UML interfaces and class diagrams for inputs and outputs, etc
 						\begin{itemize}
-				\item Different API's are to be used throughout the whole project, these are summarised below according to the interface they fall under:
+				\item Different API's are to be used throughout the whole project, these are summarised below according to the interface they fall under: 
 					\begin{itemize}
                                                 \item View: Android API, HTTP/HTML 5 API, CSS API.
 						\item Controller: Python Django API (Main API). (PHP API and JAVA API might be used under certain conditions).
@@ -236,12 +210,12 @@ generate customizable reports at different levels of granularity.
                                                 \centering
                                                 \includegraphics[width=6in, height=4in]{Pictures/MiniPhase2ClassDiag.jpg}
                                                 \caption{Assessment Marking and aggregation Class Diagram}
-					\end{figure}
+					\end{figure}        
 					\FloatBarrier
                                         \item Assessment Report Class Diagram
 						\begin{itemize}
-                                                \item Just like the previous class diagram, this the assessment report class diagram uses the abstract factory design pattern to show how each report is related to a specific assessment.
-
+                                                \item Just like the previous class diagram, this the assessment report class diagram uses the abstract factory design pattern to show how each report is related to a specific assessment.      
+                                                
 						\end{itemize}
 					\begin{figure}[h]
                                                 \centering
@@ -259,7 +233,7 @@ generate customizable reports at different levels of granularity.
                                                 \includegraphics[width=6in, height=4in]{Pictures/studentMarkRequestDiag.jpg}
                                                 \caption{Student Mark Report Class Diagram}
 					\end{figure}
-                     \FloatBarrier
+                     \FloatBarrier                   
                                 \end{itemize}
 						%These class diagrams must include attributes, methods and relationships
 						
@@ -312,137 +286,137 @@ generate customizable reports at different levels of granularity.
 						
 				
 					\captionof{table}{Module}
-					\begin{tabular}{|p{1.0in}|p{0.9in}|p{0.5in}|p{0.4in}|p{1.0in}|p{0.9in}|} \hline
-					Field & Type & Null & Key & Default & Extra \\ \hline
-					id & int(11) & No & Primary & Null & auto\_increment \\ \hline
-					code & varchar(20) & No &  & 0 &  \\ \hline
-					name & varchar(20) & No &  & Null &  \\ \hline
-					lecturer  & varchar(20) & No &  & 0 &  \\ \hline
-					description & text & Yes &  & Null &  \\ \hline
-					semester & smallint(6) & No &  & 0 &  \\ \hline
-					has\_webct & tinyint(4) & Yes &  & Null &  \\ \hline
-					year\_group & int(11) & Yes &  & Null &  \\ \hline
-					hidden & tinyint(3) unsigned & No &  & 0 &  \\ \hline
-					last\_updated & datetime & No &  & 0000-00-00 00:00:00 &  \\ \hline
-					discussion\_board & tinyint(4) & Yes &  & Null &  \\ \hline
-					tutors\_allowed & tinyint(2) & Yes &  & Null &  \\
-					\hline
+					\begin{tabular}{|p{1.0in}|p{0.9in}|p{0.5in}|p{0.4in}|p{1.0in}|p{0.9in}|} \hline 
+					Field & Type & Null & Key & Default & Extra \\ \hline 
+					id & int(11) & No & Primary & Null & auto\_increment \\ \hline 
+					code & varchar(20) & No &  & 0 &  \\ \hline 
+					name & varchar(20) & No &  & Null &  \\ \hline 
+					lecturer  & varchar(20) & No &  & 0 &  \\ \hline 
+					description & text & Yes &  & Null &  \\ \hline 
+					semester & smallint(6) & No &  & 0 &  \\ \hline 
+					has\_webct & tinyint(4) & Yes &  & Null &  \\ \hline 
+					year\_group & int(11) & Yes &  & Null &  \\ \hline 
+					hidden & tinyint(3) unsigned & No &  & 0 &  \\ \hline 
+					last\_updated & datetime & No &  & 0000-00-00 00:00:00 &  \\ \hline 
+					discussion\_board & tinyint(4) & Yes &  & Null &  \\ \hline 
+					tutors\_allowed & tinyint(2) & Yes &  & Null &  \\ 
+					\hline 
 					\end{tabular}
 
 
 
 					\captionof{table}{Session}
-					\begin{tabular}{|p{1.0in}|p{0.9in}|p{0.5in}|p{0.4in}|p{1.0in}|p{0.9in}|} \hline
-					Field & Type & Null & Key & Default & Extra \\ \hline
-					id & int(11) & No & Primary & Null & auto\_increment \\ \hline
-					code & varchar(20) & No &  & 0 &  \\ \hline
-					marker & varchar(20) & No &  & Null &  \\ \hline
-					status\_open & bool & No &  & 0 &  \\ \hline
-					start\_time & datetime & No &  & 0000-00-00 00:00:00 &  \\ \hline
-					end\_time & datetime & No &  & 0000-00-00 00:00:00 &  \\ \hline
-					assessment\_id & int(11) & No & Foreign & Null &  \\ \hline
-					session\_number & int(11) & No &  & Null &  \\ \hline
+					\begin{tabular}{|p{1.0in}|p{0.9in}|p{0.5in}|p{0.4in}|p{1.0in}|p{0.9in}|} \hline 
+					Field & Type & Null & Key & Default & Extra \\ \hline 
+					id & int(11) & No & Primary & Null & auto\_increment \\ \hline 
+					code & varchar(20) & No &  & 0 &  \\ \hline 
+					marker & varchar(20) & No &  & Null &  \\ \hline 
+					status\_open & bool & No &  & 0 &  \\ \hline 
+					start\_time & datetime & No &  & 0000-00-00 00:00:00 &  \\ \hline 
+					end\_time & datetime & No &  & 0000-00-00 00:00:00 &  \\ \hline 
+					assessment\_id & int(11) & No & Foreign & Null &  \\ \hline 
+					session\_number & int(11) & No &  & Null &  \\ \hline 
 					\end{tabular}
 					
 					
 					\newpage
 					\captionof{table}{Assessment}
-					\begin{tabular}{|p{1.0in}|p{0.9in}|p{0.5in}|p{0.4in}|p{1.0in}|p{0.9in}|} \hline
-					Field & Type & Null & Key & Default & Extra \\ \hline
-					assessment\_id & int(11) & No & Primary & Null & auto\_increment \\ \hline
-					type & varchar(11) & No &  & 0 &  \\ \hline
-					description & text & Yes &  & Null &  \\ \hline
-					assessment\_name & varchar(11) & No &  & 0 &  \\ \hline
-					code & varchar(11) & No &  & 0 &  \\ \hline
-					date\_issued & datetime & No &  & 0000-00-00 00:00:00 &  \\ \hline
-					date\_due & datetime & No &  & 0000-00-00 00:00:00 &  \\ \hline
-					mark\_id & int(11) & No & Foreign & Null &  \\ \hline
-					submission\_details & text & No &  & Null &  \\ \hline
+					\begin{tabular}{|p{1.0in}|p{0.9in}|p{0.5in}|p{0.4in}|p{1.0in}|p{0.9in}|} \hline 
+					Field & Type & Null & Key & Default & Extra \\ \hline 
+					assessment\_id & int(11) & No & Primary & Null & auto\_increment \\ \hline 
+					type & varchar(11) & No &  & 0 &  \\ \hline 
+					description & text & Yes &  & Null &  \\ \hline 
+					assessment\_name & varchar(11) & No &  & 0 &  \\ \hline 
+					code & varchar(11) & No &  & 0 &  \\ \hline 
+					date\_issued & datetime & No &  & 0000-00-00 00:00:00 &  \\ \hline 
+					date\_due & datetime & No &  & 0000-00-00 00:00:00 &  \\ \hline 
+					mark\_id & int(11) & No & Foreign & Null &  \\ \hline 
+					submission\_details & text & No &  & Null &  \\ \hline 
 					\end{tabular}
 					
 					\captionof{table}{Mark Allocation}
-					\begin{tabular}{|p{1.0in}|p{1.0in}|p{0.4in}|p{0.4in}|p{1.0in}|p{0.9in}|} \hline
-					Field & Type & Null & Key & Default & Extra \\ \hline
-					mark\_id & int(11) & No & Primary & Null & auto\_increment \\ \hline
-					mark & varchar(10) & Yes &  & 0 &  \\ \hline
-					comment & varchar(30) & Yes &  & 0 &  \\ \hline
-					marker\_name & varchar(20) & No &  & 0 &  \\ \hline
-					timestamp & datetime & No &  & 0000-00-00 00:00:00 &  \\ \hline
-					totalMark & varchar(20) & No &  & 0 &  \\ \hline
+					\begin{tabular}{|p{1.0in}|p{1.0in}|p{0.4in}|p{0.4in}|p{1.0in}|p{0.9in}|} \hline 
+					Field & Type & Null & Key & Default & Extra \\ \hline 
+					mark\_id & int(11) & No & Primary & Null & auto\_increment \\ \hline 
+					mark & varchar(10) & Yes &  & 0 &  \\ \hline 
+					comment & varchar(30) & Yes &  & 0 &  \\ \hline 
+					marker\_name & varchar(20) & No &  & 0 &  \\ \hline 
+					timestamp & datetime & No &  & 0000-00-00 00:00:00 &  \\ \hline 
+					totalMark & varchar(20) & No &  & 0 &  \\ \hline 
 					\end{tabular}
 					
 					
 					
 					\captionof{table}{Simple Sum Aggregator}
-					\begin{tabular}{|p{1.0in}|p{1.0in}|p{0.4in}|p{0.5in}|p{0.9in}|p{0.9in}|} \hline
-					Field & Type & Null & Key & Default & Extra \\ \hline
-					ssa\_id & int(11) & No & Primary & Null & auto\_increment \\ \hline
-					assessment\_id & int(11) & No & Foreign & Null &  \\ \hline
-					Num\_of\_questions & varchar(20) & No &  & 0 &  \\ \hline
-					full\_marks & varchar(20) & No &  & 0 &  \\ \hline
+					\begin{tabular}{|p{1.0in}|p{1.0in}|p{0.4in}|p{0.5in}|p{0.9in}|p{0.9in}|} \hline 
+					Field & Type & Null & Key & Default & Extra \\ \hline 
+					ssa\_id & int(11) & No & Primary & Null & auto\_increment \\ \hline 
+					assessment\_id & int(11) & No & Foreign & Null &  \\ \hline 
+					Num\_of\_questions & varchar(20) & No &  & 0 &  \\ \hline 
+					full\_marks & varchar(20) & No &  & 0 &  \\ \hline 
 					\end{tabular}
 					
 					
 					
 					\captionof{table}{Weighted Sum Aggregator}
-					\begin{tabular}{|p{1.0in}|p{0.9in}|p{0.4in}|p{0.6in}|p{0.9in}|p{0.9in}|} \hline
-					Field & Type & Null & Key & Default & Extra \\ \hline
-					wsa\_id & int(11) & No & Primary & Null & auto\_increment \\ \hline
-					assessment\_id & int(11) & No & Foreign & Null &  \\ \hline
-					num\_of\_assessements & varchar(20) & No &  & 0 &  \\ \hline
-					calculate\_weights & int(11) & No &  & Null &  \\ \hline
+					\begin{tabular}{|p{1.0in}|p{0.9in}|p{0.4in}|p{0.6in}|p{0.9in}|p{0.9in}|} \hline 
+					Field & Type & Null & Key & Default & Extra \\ \hline 
+					wsa\_id & int(11) & No & Primary & Null & auto\_increment \\ \hline 
+					assessment\_id & int(11) & No & Foreign & Null &  \\ \hline 
+					num\_of\_assessements & varchar(20) & No &  & 0 &  \\ \hline 
+					calculate\_weights & int(11) & No &  & Null &  \\ \hline 
 					\end{tabular}
 					
 					
 					\newpage
 					\captionof{table}{Best Of Aggregator}
-					\begin{tabular}{|p{1.0in}|p{1.0in}|p{0.4in}|p{0.5in}|p{0.9in}|p{0.9in}|} \hline
-					Field & Type & Null & Key & Default & Extra \\ \hline
-					boa\_id & int(11) & No & Primary & Null & auto\_increment \\ \hline
-					assessement\_id & int(11) & No & Foreign & Null &  \\ \hline
-					Best\_aggregates & varchar(20) & No &  & 0 &  \\ \hline
-					sum\_marks & varchar(20) & No &  & 0 &  \\ \hline
+					\begin{tabular}{|p{1.0in}|p{1.0in}|p{0.4in}|p{0.5in}|p{0.9in}|p{0.9in}|} \hline 
+					Field & Type & Null & Key & Default & Extra \\ \hline 
+					boa\_id & int(11) & No & Primary & Null & auto\_increment \\ \hline 
+					assessement\_id & int(11) & No & Foreign & Null &  \\ \hline 
+					Best\_aggregates & varchar(20) & No &  & 0 &  \\ \hline 
+					sum\_marks & varchar(20) & No &  & 0 &  \\ \hline 
 					\end{tabular}
 					
 					
 					
 					
 					\captionof{table}{Student Report}
-					\begin{tabular}{|p{1.0in}|p{1.0in}|p{0.4in}|p{0.4in}|p{1.0in}|p{0.9in}|} \hline
-					Field & Type & Null & Key & Default & Extra \\ \hline
-					sReport\_id & int(11) & No & Primary & Null & auto\_increment \\ \hline
-					timestamp & datetime & No &  & 0000-00-00 00:00:00 &  \\ \hline
-					assessment\_name & varchar(11) & No & Foreign & 0 &  \\ \hline
-					ssa\_id & int(11) & No & Foreign & Null &  \\ \hline
-					wsa\_id & int(11) & No & Foreign & Null &  \\ \hline
+					\begin{tabular}{|p{1.0in}|p{1.0in}|p{0.4in}|p{0.4in}|p{1.0in}|p{0.9in}|} \hline 
+					Field & Type & Null & Key & Default & Extra \\ \hline 
+					sReport\_id & int(11) & No & Primary & Null & auto\_increment \\ \hline 
+					timestamp & datetime & No &  & 0000-00-00 00:00:00 &  \\ \hline 
+					assessment\_name & varchar(11) & No & Foreign & 0 &  \\ \hline 
+					ssa\_id & int(11) & No & Foreign & Null &  \\ \hline 
+					wsa\_id & int(11) & No & Foreign & Null &  \\ \hline 
 					\end{tabular}
 					
 					
 					
 					\captionof{table}{Audit Report}
-					\begin{tabular}{|p{1.1in}|p{0.9in}|p{0.5in}|p{0.4in}|p{1.0in}|p{0.9in}|} \hline
-					Field & Type & Null & Key & Default & Extra \\ \hline
-					ar\_id & int(11) & No & Primary & Null & auto\_increment \\ \hline
-					datestamp & datetime & No &  & 0000-00-00 00:00:00 &  \\ \hline
-					userId & int(11) & No &  & Null &  \\ \hline
-					action\_performed & varchar(30) & Yes &  & 0 &  \\ \hline
-					assessment\_CRUD & varchar(30) & No &  & 0 &  \\ \hline
-					sessions\_CRUD & varchar(30) & No &  & 0 &  \\ \hline
-					mark\_CRUD & varchar(30) & No &  & 0 &  \\ \hline
-					session\_status\_request & varchar(30) & yes &  & 0 &  \\ \hline
-					publish\_mark\_request & varchar(30) & Yes &  & 0 &  \\ \hline
-					report\_request & varchar(30) & Yes &  & 0 &  \\ \hline
+					\begin{tabular}{|p{1.1in}|p{0.9in}|p{0.5in}|p{0.4in}|p{1.0in}|p{0.9in}|} \hline 
+					Field & Type & Null & Key & Default & Extra \\ \hline 
+					ar\_id & int(11) & No & Primary & Null & auto\_increment \\ \hline 
+					datestamp & datetime & No &  & 0000-00-00 00:00:00 &  \\ \hline 
+					userId & int(11) & No &  & Null &  \\ \hline 
+					action\_performed & varchar(30) & Yes &  & 0 &  \\ \hline 
+					assessment\_CRUD & varchar(30) & No &  & 0 &  \\ \hline 
+					sessions\_CRUD & varchar(30) & No &  & 0 &  \\ \hline 
+					mark\_CRUD & varchar(30) & No &  & 0 &  \\ \hline 
+					session\_status\_request & varchar(30) & yes &  & 0 &  \\ \hline 
+					publish\_mark\_request & varchar(30) & Yes &  & 0 &  \\ \hline 
+					report\_request & varchar(30) & Yes &  & 0 &  \\ \hline 
 					\end{tabular}
 					
 					
-					\captionof{table}{Assessement Report}
-					\begin{tabular}{|p{1.0in}|p{1.0in}|p{0.4in}|p{0.4in}|p{1.0in}|p{0.9in}|} \hline
-					Field & Type & Null & Key & Default & Extra \\ \hline
-					as\_id & int(11) & No & Primary & Null & auto\_increment \\ \hline
-					datestamp & datetime & No &  & 0000-00-00 00:00:00 &  \\ \hline
-					class\_average & varchar(20) & No &  & 0 &  \\ \hline
-					frequency\_analysis & varchar(20) & No &  & 0 &  \\ \hline
-					assessement\_id & int(11) & No & Foreign & Null &  \\ \hline
+					\captionof{table}{Assessement Report} 
+					\begin{tabular}{|p{1.0in}|p{1.0in}|p{0.4in}|p{0.4in}|p{1.0in}|p{0.9in}|} \hline 
+					Field & Type & Null & Key & Default & Extra \\ \hline 
+					as\_id & int(11) & No & Primary & Null & auto\_increment \\ \hline 
+					datestamp & datetime & No &  & 0000-00-00 00:00:00 &  \\ \hline 
+					class\_average & varchar(20) & No &  & 0 &  \\ \hline 
+					frequency\_analysis & varchar(20) & No &  & 0 &  \\ \hline 
+					assessement\_id & int(11) & No & Foreign & Null &  \\ \hline 
 					\end{tabular}
 				\vspace{0.2in}
 			
